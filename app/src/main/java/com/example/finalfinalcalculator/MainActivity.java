@@ -354,7 +354,6 @@ public class MainActivity extends AppCompatActivity {
                         t3.setText(t2.getText());
                         t2.setText(t1.getText() + " = " + output);
                         if (output.equals("NaN")) {
-                            t3.setText(t2.getText());
                             t2.setText(t1.getText() + " = " + "ERROR!");
                             t1.setText("0");
                         } else {
